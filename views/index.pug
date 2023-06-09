@@ -1,0 +1,67 @@
+doctype html 
+html 
+    head 
+        title Sahil Dance Acedmy 
+        style 
+            include ../static/style.css
+    body
+        nav#navbar 
+            ul 
+                div.logo
+                    img(src="/static/logo.png", alt="UnAvailable")
+                    | SDA
+                li #[a(href="/") Home  ]
+                li #[a(href="/") About Us] 
+                li #[a(href="/") Services ] 
+                li #[a(href="/") Contact Info] 
+
+        section#introsection  
+            div  Welcome to Sahil Dancing Acedmy  
+            div.small Eat Sleep Dance  Repeat  
+
+
+        section#OurMission
+            h2 Our Mission 
+            div.card
+                h3 Dance Perfection 
+                div.card-content
+                    div.card-img
+                        img(src="/static/img2.png")
+                    div.card-thing
+                        p This is best dance acedmy i everd seen 
+            div.card
+                h3  Dance the way you like 
+                div.card-content
+                    div.card-img
+                        img(src="/static/img1.png")
+                    div.card-thing
+                        p This is best dance acedmy i everd seen 
+            div.card
+                h3  Expert Teaching 
+                div.card-content
+                    div.card-img
+                        img(src="/static/img3.png")
+                    div.card-thing
+                        p This is best dance acedmy i everd seen 
+
+        section#introsponser
+            h2 Our Sponser
+            div#sponser
+                img(src="/static/s1.png", alt="Sponser image")
+                img(src="/static/s2.png", alt="Sponser image")
+                img(src="/static/s3.png", alt="Sponser image")
+                img(src="/static/s4.png", alt="Sponser image")
+
+
+
+        footer#introfooter   
+         Copyright  © 2022 SahilDanceAcedmy.com All Right Reserved 
+
+
+
+
+
+
+
+        script 
+            include ../static/index.js 

@@ -1,0 +1,43 @@
+
+.containor{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    min-height: 84vh;
+}
+
+h1{
+    font-size: 37px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: block;
+    text-align: center;
+}
+
+.myform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.myform input{
+    font-size: 14px;
+    border-radius: 30px;
+    margin: 8px;
+    padding: 9px;
+    width: 46%;
+    border: 3px solid grey;
+}
+
+.btn{
+    margin-top: 12px;
+    padding: 9px 14px;
+    font-size: 13px;
+    margin-bottom: 22px;
+    display: block;
+    border-radius: 23px;
+    border: 4px solid black;
+    font-weight: bold;
+    cursor: pointer;
+}
